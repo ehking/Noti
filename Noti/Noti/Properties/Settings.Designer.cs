@@ -22,5 +22,41 @@ namespace Noti.Properties {
                 return defaultInstance;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string web_url {
+            get {
+                return ((string)(this["web_url"]));
+            }
+            set {
+                this["web_url"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("5")]
+        public int timer_synce {
+            get {
+                return ((int)(this["timer_synce"]));
+            }
+            set {
+                this["timer_synce"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool auto_start {
+            get {
+                return ((bool)(this["auto_start"]));
+            }
+            set {
+                this["auto_start"] = value;
+            }
+        }
     }
 }

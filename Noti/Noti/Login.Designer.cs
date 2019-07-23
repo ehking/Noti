@@ -60,12 +60,11 @@
             // 
             // url
             // 
-            this.url.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
-            this.url.Location = new System.Drawing.Point(29, 182);
+            this.url.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.url.Location = new System.Drawing.Point(12, 182);
             this.url.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.url.Multiline = true;
             this.url.Name = "url";
-            this.url.Size = new System.Drawing.Size(229, 29);
+            this.url.Size = new System.Drawing.Size(258, 22);
             this.url.TabIndex = 1;
             // 
             // label1
@@ -73,7 +72,7 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(180, 163);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(102, 17);
+            this.label1.Size = new System.Drawing.Size(82, 13);
             this.label1.TabIndex = 2;
             this.label1.Text = "آدرس اتوماسیون";
             // 
@@ -96,7 +95,7 @@
             this.label2.ForeColor = System.Drawing.SystemColors.ActiveBorder;
             this.label2.Location = new System.Drawing.Point(71, 387);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(187, 17);
+            this.label2.Size = new System.Drawing.Size(144, 13);
             this.label2.TabIndex = 4;
             this.label2.Text = "© Copyright 2019 Samatoos";
             // 
@@ -127,7 +126,7 @@
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(204, 161);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(66, 17);
+            this.label3.Size = new System.Drawing.Size(53, 13);
             this.label3.TabIndex = 7;
             this.label3.Text = "نام کاربری";
             this.label3.Visible = false;
@@ -137,7 +136,7 @@
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(221, 224);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(49, 17);
+            this.label4.Size = new System.Drawing.Size(39, 13);
             this.label4.TabIndex = 8;
             this.label4.Text = "گذرواژه";
             this.label4.Visible = false;
@@ -168,6 +167,7 @@
             // 
             // captcha_img
             // 
+            this.captcha_img.Image = ((System.Drawing.Image)(resources.GetObject("captcha_img.Image")));
             this.captcha_img.Location = new System.Drawing.Point(42, 290);
             this.captcha_img.Name = "captcha_img";
             this.captcha_img.Size = new System.Drawing.Size(100, 44);
@@ -187,7 +187,7 @@
             // 
             // Login
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(282, 403);
             this.Controls.Add(this.reload_img);
